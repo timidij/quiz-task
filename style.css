@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: sent;
+    src: url(./Inter-VariableFont_slnt\,wght.ttf);
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: auto;
+    font-family: sent, Tahoma, Geneva, Verdana, sans-serif;
+}
+.dive{
+    margin: 50px;
+    padding: 10px;
+}
+
+input{
+    margin: 10px;
+}
+
+.correct{
+    background-color: green;
+    color: white;
+}
+.wrong{
+    background-color: red;
+}
+.score{
+    
+      position: sticky;
+      top: 0;
+      padding: 10px;
+      background-color: antiquewhite;
+}
+.score >h1{
+    display: flex;
+    justify-content: center;
+    
+}
+.eachQuestion{
+    margin-top: 20px;
+}
+.score1{
+    margin-left: 20px;
+}
