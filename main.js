@@ -90,7 +90,7 @@ questions.forEach((question,index)=>{
                 label.style.color = 'red';
               }
             } else if (radio.value === correctAnswer) {
-              label.style.color = 'green'; // Correct answer, not selected
+              label.style.color = 'green'; // Correct anbswer, not selected
               
             }
           });
