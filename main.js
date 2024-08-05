@@ -91,7 +91,7 @@ questions.forEach((question,index)=>{
               }
             } else if (radio.value === correctAnswer) {
               label.style.color = 'green'; // Correct anbsw er, not selected
-              label.style.backgroundColor = 'green';
+              label.style.backgroundColor = 'white';
               
             }
           });
